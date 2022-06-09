@@ -52,3 +52,7 @@ body {
 .description-c {
   text-align: right;
 }
+
+iframe {
+  border: none;
+}
