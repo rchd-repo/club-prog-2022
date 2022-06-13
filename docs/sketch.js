@@ -1,5 +1,5 @@
 const tilesN = 4;
-const divsx = 20;
+const divsx = 25;
 const divsy = 3;
 let s;
 const graphics = [];

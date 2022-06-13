@@ -18,9 +18,9 @@ body {
 }
 
 .intro-c {
-  max-width: 700px;
-  margin: 80px auto;
-  /* padding: 0px 40px; */
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
 }
 
 .intro-c p {
@@ -41,8 +41,13 @@ body {
 
 .section-c {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  padding: 40px;
+  grid-template-columns: 600px 1fr;
   border-bottom: solid 1px black;
+}
+
+.section-c p {
+  text-align: justify;
 }
 
 .subsection {
@@ -53,6 +58,16 @@ body {
   text-align: right;
 }
 
+a {
+  color: gray;
+  cursor: pointer;
+}
+
 iframe {
   border: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
 }
